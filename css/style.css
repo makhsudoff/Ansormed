@@ -18,6 +18,7 @@ body
 *:focus
 {
   outline: 2px dotted #DE2E54;
+  outline-offset: 2px;
 }
 
 /* CONTAINER */
