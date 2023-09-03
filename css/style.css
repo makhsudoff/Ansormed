@@ -1,7 +1,12 @@
 /* GLOBAL */
 *
 {
-   box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html
+{
+  scroll-behavior: smooth;
 }
 
 body
@@ -195,6 +200,20 @@ body
   opacity: 1;
 }
 
+.main-link-outline
+{
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+.main-link-outline:hover
+{
+  border-color: transparent;
+  background-color: #DE2E54;
+  color: #fff;
+
+}
+
 /* HERO */
 
 .hero
@@ -316,6 +335,39 @@ body
 {
   display: flex;
   justify-content: center;
+}
+
+/* CTA */
+
+.cta
+{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0EB4C1;
+  color: #fff;
+}
+
+.cta-links
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cta-links-item:not(:last-child)
+{
+  margin-right: 40px;
+}
+
+.cta-heading
+{
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 /* SITE FOOTER */
