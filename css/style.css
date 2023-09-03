@@ -27,3 +27,27 @@ body
   margin-right: auto;
 
 }
+
+/* SITE HEADER */
+
+.site-header
+{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+
+.site-header-container
+{
+  display: block;
+  justify-content: space-between;
+}
+
+/* SITE LOGO */
+
+
+.site-logo
+{
+  display: flex;
+  text-decoration: none;
+}
