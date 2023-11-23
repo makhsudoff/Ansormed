@@ -43,7 +43,6 @@ body {
 
 
 .site-header-container {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +52,6 @@ body {
 
 
 .site-logo {
-
   display: flex;
   text-decoration: none;
   align-items: center;
@@ -90,7 +88,6 @@ body {
 .sitenav-site-footer .sitenav-link:active {
   color: #fff;
   opacity: 0.6;
-
 }
 
 .site-logo-img {
@@ -129,7 +126,6 @@ body {
 
 .sitenav-link:hover {
   color: #DE2E54;
-
 }
 
 .sitenav-link:active {
@@ -394,7 +390,28 @@ body {
 }
 
 
+@media only screen and (max-width: 900px) {
+  .site-footer-container {
+    flex-direction: column;
+  }
 
+  .site-logo-site-footer {
+    margin-bottom:24px;
+  }
+
+  .sitenav-site-footer .sitenav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  .sitenav-site-footer .sitenav-item {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .hero-container {
