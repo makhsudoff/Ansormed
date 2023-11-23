@@ -310,7 +310,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-wrap: wrap;
 }
 
 .cta-links-item:not(:last-child) {
@@ -387,13 +387,16 @@ body {
     width: 130px;
     height: 130px;
   }
+
+  .cta-heading {
+    font-size: 24px;
+  }
 }
 
 
 
 
 @media only screen and (max-width: 800px) {
-  
   .hero-container {
     flex-wrap: wrap;
     justify-content: center;
@@ -445,5 +448,19 @@ body {
 
   .index-service-description {
     text-align: justify;
+  }
+
+  .cta {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .cta-links {
+    flex-direction: column;
+  }
+
+  .cta-links-item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 24px;
   }
 }
